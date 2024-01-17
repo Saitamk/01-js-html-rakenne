@@ -1,0 +1,48 @@
+html {
+  font-size: 62.5%;
+  border: dotted gray 1px;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-size: 2rem;
+  margin: 1rem;
+}
+.ylatunniste {
+  border: dotted grey 1px;
+  padding: 2rem;
+}
+#rinnakkain {
+  border: dotted grey 1px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+h1,
+p,
+h2 {
+}
+h1 {
+  font-size: 3rem;
+}
+p {
+  flex: 1;
+}
+
+header {
+  padding: 1rem;
+  border: dotted gray 1px;
+}
+figure {
+  max-width: 100%;
+}
+img {
+  width: 100%;
+}
+footer {
+  padding: 1rem;
+  border: dotted grey 1px;
+}
